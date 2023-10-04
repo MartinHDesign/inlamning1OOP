@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Inlamning1 {
+public class Huvudprogram {
         Kaktusar Igge = new Kaktusar("Igge", 0.2);
         Palmer Laura = new Palmer("Laura", 5);
         KöttätandeVäxter Meatloaf = new KöttätandeVäxter("Meatloaf", 0.7);
@@ -42,7 +42,7 @@ public class Inlamning1 {
             boende.append("* ").append(namn).append(".\n");
         JOptionPane.showMessageDialog(null,boende);
     }
-    Inlamning1() {
+    Huvudprogram() {
 
         List<String> boendePåHotellet = new ArrayList<>();
 
@@ -57,6 +57,7 @@ public class Inlamning1 {
     }
 
 
-    public static void main(String[] args) {Inlamning1 inl1 = new Inlamning1();
+    public static void main(String[] args) {
+        Huvudprogram inl1 = new Huvudprogram();
     }
 }
