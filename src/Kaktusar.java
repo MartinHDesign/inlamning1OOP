@@ -1,6 +1,6 @@
 public class Kaktusar extends Växter implements mängdVätska{
-    public Kaktusar(String namn, double höjdMeter) {
-        super(namn, höjdMeter, Vätskor.MINERALVATTEN);
+    public Kaktusar(String namn, double höjdMeter, Vätskor vätska) {
+        super(namn, höjdMeter, vätska);
         enhet(höjdMeter);
     }
     //Inkapsling sparar värdena för variablerna utan att dom syns i koden

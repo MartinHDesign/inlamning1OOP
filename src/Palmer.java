@@ -1,7 +1,7 @@
 public class Palmer extends Växter implements mängdVätska{
     //konstruktor
-    public Palmer(String namn, double höjdMeter) {
-        super(namn, höjdMeter, Vätskor.KRANVATTEN);
+    public Palmer(String namn, double höjdMeter, Vätskor vätska) {
+        super(namn, höjdMeter, vätska);
         enhet(höjdMeter);
         uträkning();
     }

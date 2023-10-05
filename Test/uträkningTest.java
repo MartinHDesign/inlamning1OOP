@@ -2,10 +2,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class uträkningTest {
-    Kaktusar Igge = new Kaktusar("Igge", 0.2);
-    Palmer Laura = new Palmer("Laura", 5);
-    KöttätandeVäxter Meatloaf = new KöttätandeVäxter("Meatloaf", 0.7);
-    Palmer Olof = new Palmer("Olof", 1);
+    Kaktusar Igge = new Kaktusar("Igge", 0.2, Vätskor.MINERALVATTEN);
+    Palmer Laura = new Palmer("Laura", 5, Vätskor.KRANVATTEN);
+    KöttätandeVäxter Meatloaf = new KöttätandeVäxter("Meatloaf", 0.7, Vätskor.PROTEINDRYCK);
+    Palmer Olof = new Palmer("Olof", 1, Vätskor.KRANVATTEN);
 
     @Test
     void uträkning() {

@@ -1,7 +1,9 @@
 public interface mängdVätska {
+
     String meddelandeMängdVätska();
     void enhet(double höjdMeter);
     double uträkning();
+
     default Måttenheter volymEnhet(double totalVätskorLiter){
         if (totalVätskorLiter < 0.1){
             return Måttenheter.CENTILITER;

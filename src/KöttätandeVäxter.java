@@ -1,6 +1,6 @@
 public class KöttätandeVäxter extends Växter implements mängdVätska{
-    public KöttätandeVäxter(String namn, double höjdMeter) {
-        super(namn, höjdMeter, Vätskor.PROTEINDRYCK);
+    public KöttätandeVäxter(String namn, double höjdMeter, Vätskor vätska) {
+        super(namn, höjdMeter, vätska);
         enhet(höjdMeter);
         uträkning();
     }

@@ -3,10 +3,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Huvudprogram {
-        Kaktusar Igge = new Kaktusar("Igge", 0.2);
-        Palmer Laura = new Palmer("Laura", 5);
-        KöttätandeVäxter Meatloaf = new KöttätandeVäxter("Meatloaf", 0.7);
-        Palmer Olof = new Palmer("Olof", 1);
+        Kaktusar Igge = new Kaktusar("Igge", 0.2, Vätskor.MINERALVATTEN);
+        Palmer Laura = new Palmer("Laura", 5, Vätskor.KRANVATTEN);
+        KöttätandeVäxter Meatloaf = new KöttätandeVäxter("Meatloaf", 0.7, Vätskor.PROTEINDRYCK);
+        Palmer Olof = new Palmer("Olof", 1, Vätskor.KRANVATTEN);
 
     public String växtSomSkaVattnas(List<String> boendePåHotellet){
         String namnVäxtSomSkaVattnas =
@@ -57,7 +57,5 @@ public class Huvudprogram {
     }
 
 
-    public static void main(String[] args) {
-        Huvudprogram inl1 = new Huvudprogram();
-    }
+    public static void main(String[] args) {Huvudprogram inl1 = new Huvudprogram();}
 }
